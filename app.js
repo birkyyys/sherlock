@@ -1,13 +1,13 @@
 const euro=n=>'€'+Math.abs(n).toLocaleString('en-US');
 const signed=n=>(n<0?'−':'')+euro(n);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const title=s=>s.replace(/COGS|PPE|AR|AP/g,m=>m.toLowerCase()).replace(/([A-Z])/g,' $1').replace(/^./,c=>c.toUpperCase()).replace(/\b(cogs|ppe|ar|ap)\b/g,m=>m.toUpperCase());
+const title=s=>s.replace(/COGS/g,' COGS ').replace(/PPE/g,' PPE ').replace(/AR/g,' AR ').replace(/AP/g,' AP ').replace(/([a-z0-9])([A-Z])/g,'$1 $2').replace(/\s+/g,' ').trim().replace(/^./,c=>c.toUpperCase());
 const evidenceCodes={};
 function sourceUrl(s){let file=s.replace(/^03\//,'');return '/evidence/03%20CASE%20FILES%20-%20Open%20and%20Investigate/'+encodeURIComponent(file)}
 function evidenceText(list){return (list||[]).map(s=>{let e=Object.entries(evidenceCodes).find(([,v])=>v===s);return e?`<a href="${sourceUrl(s)}" title="${esc(s)}" target="_blank" rel="noopener">${e[0]}</a>`:esc(s)}).join(', ')}
 function renderHome(data){
  const bs=data.statements.balanceSheet,pl=data.statements.profitAndLoss;
- document.querySelector('#metrics').innerHTML=[['Revenue',pl.revenue,'Recognized delivery'],['Profit',pl.profitBeforeTax,'Proposed, subject to stock review'],['Cash',bs.cash,'Bank confirmed'],['Net assets',bs.equity,'Assets less liabilities']].map(([name,value,note])=>`<div class="metric"><span>${name}</span><strong>${euro(value)}</strong><small>${note}</small></div>`).join('');
+ document.querySelector('#metrics').innerHTML=[['Revenue',pl.revenue,'Recognized delivery'],['Profit',pl.profitBeforeTax,'Student-certified primary case'],['Cash',bs.cash,'Bank confirmed'],['Net assets',bs.equity,'Assets less liabilities']].map(([name,value,note])=>`<div class="metric"><span>${name}</span><strong>${euro(value)}</strong><small>${note}</small></div>`).join('');
  const statementNames={profitAndLoss:'Profit & loss',cashFlow:'Direct cash flow',balanceSheet:'Balance sheet'};
  document.querySelector('#statements').innerHTML=Object.entries(data.statements).map(([key,rows])=>`<article class="statement"><h3>${statementNames[key]}</h3>${Object.entries(rows).map(([label,value])=>`<div class="row ${['profitBeforeTax','closingCash','liabilitiesAndEquity'].includes(label)?'total':''}"><span>${title(label)}</span><span>${signed(value)}</span></div>`).join('')}</article>`).join('');
  document.querySelector('#schedules').innerHTML=Object.entries(data.schedules).map(([name,rows])=>`<article class="schedule"><h3>${title(name)}</h3>${Object.entries(rows).map(([label,value])=>`<div class="row"><span>${title(label)}</span><span>${signed(value)}</span></div>`).join('')}</article>`).join('');

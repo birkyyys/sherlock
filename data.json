@@ -3,9 +3,11 @@
   "caseId": "DPI-HT-01",
   "student": {
     "id": "25054",
-    "name": "Karina Vasiljeva"
+    "name": "Karina Vasiljeva",
+    "certified": true,
+    "certifiedOn": "2026-09-21"
   },
-  "certificationStatus": "Reconciled analyst recommendation; individual student certification required by assignment",
+  "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
   "evidence": [
     {
       "id": "B",
@@ -458,7 +460,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Insurance movement.",
-      "answer": "No insurance movement is identified; do not invent an amount",
+      "answer": "No opening prepaid-insurance asset, policy, premium payment or insurance movement is evidenced. Use €0 opening prepaid, €0 period expense and €0 closing prepaid; retain this as a low-confidence evidence limitation.",
       "evidence": [
         "03/02 Bank Export August.csv",
         "03/06 Purchases Invoices and Goods Received.pdf"
@@ -560,7 +562,7 @@
       "firstAIProposal": "€90,000 September receipts are contract liabilities until delivery",
       "agent2Position": "Agent 2 independently confirms €90,000 deposits relate to September performance and remain contract liabilities.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D042",
@@ -587,7 +589,7 @@
       "firstAIProposal": "€50,000 new bank borrowing is a loan liability",
       "agent2Position": "Agent 2 independently confirms the €50,000 advance is repayable bank borrowing.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D043",
@@ -615,7 +617,7 @@
       "firstAIProposal": "Capitalise €60,000 packaging machine",
       "agent2Position": "Agent 2 confirms the installed €60,000 machine is PPE, not a repair.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D044",
@@ -643,7 +645,7 @@
       "firstAIProposal": "Capitalise €20,000 photo booth",
       "agent2Position": "Agent 2 confirms the €20,000 photo booth is PPE despite the marketing label.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D045",
@@ -671,7 +673,7 @@
       "firstAIProposal": "Expense €10,000 replacement belt and calibration",
       "agent2Position": "Agent 2 confirms €10,000 belt and calibration restored normal output and should be expensed.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D046",
@@ -698,7 +700,7 @@
       "firstAIProposal": "Classify €70,000 villa as owner distribution",
       "agent2Position": "Agent 2 confirms €70,000 villa payment is personal and an owner distribution.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D047",
@@ -726,14 +728,14 @@
       "firstAIProposal": "Classify €40,000 owner-card spending as owner distribution",
       "agent2Position": "Agent 2 confirms €40,000 owner card has no approved employment basis and is a distribution.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D048",
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Physical product materials consumed.",
-      "answer": "Use count-implied €396,000 valid-sales materials consumption in primary case; disclose €405,000 operations figure and €9,000 conflict",
+      "answer": "Certified primary treatment: use €396,000 count-implied materials consumption because the 31 August physical count directly measures the reporting-date stock. Add the €22,000 damaged-stock write-down separately; disclose the €405,000 operations claim and €9,000 conflict.",
       "evidence": [
         "03/05 Warehouse Count Marta Notes.pdf",
         "03/06 Purchases Invoices and Goods Received.pdf"
@@ -741,7 +743,7 @@
       "confidence": "medium",
       "aiProposal": "Primary count-implied consumption €396,000, with €9,000 conflict disclosed.",
       "independentChallenge": "Agent 2 uses €405,000 operations consumption and a separate €9,000 unexplained count surplus; the net material charge remains €418,000.",
-      "studentReasoning": "Opening €80,000 plus €459,000 purchases less €143,000 physical gross count implies €396,000 consumed. The operations note says €405,000; the unexplained €9,000 must remain visible and must not be presented as a proved gain.",
+      "studentReasoning": "I certify the count-based treatment. Opening inventory of €80,000 plus €459,000 purchases less the €143,000 physical gross count gives €396,000 consumption. The count is direct reporting-date evidence. The €405,000 operations note is a conflicting flow record, so its €9,000 effect is disclosed as a sensitivity rather than mixed into the primary statements.",
       "statementEffect": {
         "profit": 9000,
         "cash": 0,
@@ -753,7 +755,7 @@
       "firstAIProposal": "Primary count-implied consumption €396,000, with €9,000 conflict disclosed.",
       "agent2Position": "Agent 2 uses €405,000 operations consumption and a separate €9,000 unexplained count surplus; the net material charge remains €418,000.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D049",
@@ -779,7 +781,7 @@
       "firstAIProposal": "Present €80,000 event-delivery payroll as direct cost of sales",
       "agent2Position": "Agent 2 confirms €80,000 event-delivery staff cost belongs in direct service cost.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D050",
@@ -871,7 +873,7 @@
       "firstAIProposal": "Recognise €24,000 period depreciation",
       "agent2Position": "Agent 2 confirms €24,000 depreciation but notes underlying useful lives were not supplied.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D057",
@@ -898,7 +900,7 @@
       "firstAIProposal": "Recognise €18,000 R-17 bad-debt expense and AR write-off",
       "agent2Position": "Agent 2 confirms the later R-17 liquidation notice corroborates an August impairment.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D058",
@@ -925,7 +927,7 @@
       "firstAIProposal": "Write down €22,000 stock and recognise €2,000 disposal provision.",
       "agent2Position": "Agent 2 writes down €22,000 but rejects €2,000 provision because a future disposal quote does not establish a present obligation.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D059",
@@ -952,14 +954,14 @@
       "firstAIProposal": "Recognise €25,000 probable employee-claim provision",
       "agent2Position": "Agent 2 confirms €25,000 legal provision from counsel’s reporting-date probable claim.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D060",
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Insurance consumed.",
-      "answer": "Record €0 evidenced insurance expense; missing records remain a limitation",
+      "answer": "Classify evidenced insurance consumed as €0: no opening prepaid asset, premium payment or policy is supported by the case files.",
       "evidence": [
         "03/02 Bank Export August.csv",
         "03/06 Purchases Invoices and Goods Received.pdf"
@@ -1027,7 +1029,7 @@
       "firstAIProposal": "Recognise €180,000 NorthStar revenue on acceptance",
       "agent2Position": "Agent 2 confirms €180,000 NorthStar revenue on February acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D065",
@@ -1055,7 +1057,7 @@
       "firstAIProposal": "Recognise €200,000 Freedom revenue on acceptance",
       "agent2Position": "Agent 2 confirms €200,000 Freedom revenue despite partial collection.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D066",
@@ -1083,7 +1085,7 @@
       "firstAIProposal": "Recognise €100,000 Phoenix revenue on event completion",
       "agent2Position": "Agent 2 confirms €100,000 Phoenix revenue from completed event and customer email acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D067",
@@ -1111,7 +1113,7 @@
       "firstAIProposal": "Recognise €120,000 Liberty revenue on delivery and acceptance",
       "agent2Position": "Agent 2 confirms €120,000 Liberty revenue from delivery and express acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D068",
@@ -1138,7 +1140,7 @@
       "firstAIProposal": "Exclude €90,000 September events from August revenue",
       "agent2Position": "Agent 2 excludes both undelivered September events from August revenue.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D069",
@@ -1190,7 +1192,7 @@
       "firstAIProposal": "Write off R-17 €18,000 with no expected recovery",
       "agent2Position": "Agent 2 confirms the €18,000 R-17 receivable has no expected recovery.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D072",
@@ -1217,7 +1219,7 @@
       "firstAIProposal": "Write off €22,000 damaged inventory and recognise €2,000 disposal provision.",
       "agent2Position": "Agent 2 writes down €22,000, investigates €9,000 conflict, and does not accrue the disposal quote.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D073",
@@ -1244,7 +1246,7 @@
       "firstAIProposal": "Legal provision €25,000; reasonable estimate range €20,000–€30,000",
       "agent2Position": "Agent 2 accepts counsel’s €25,000 best estimate within the €20,000–€30,000 range.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D074",
@@ -1270,14 +1272,14 @@
       "firstAIProposal": "Period depreciation €24,000 per independent estimate",
       "agent2Position": "Agent 2 uses €24,000 depreciation, while requesting the missing underlying calculation.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D075",
       "category": "estimation",
       "reviewTier": "material_judgment",
       "question": "Estimate Closing inventory and document the basis.",
-      "answer": "Closing inventory €121,000 from €143,000 count less €22,000 impairment; €9,000 movement conflict remains",
+      "answer": "Certified closing inventory is €121,000: €143,000 physical gross count less €22,000 unsaleable stock. The alternative movement result of €112,000 remains an unresolved sensitivity, not the primary balance.",
       "evidence": [
         "03/05 Warehouse Count Marta Notes.pdf",
         "03/06 Purchases Invoices and Goods Received.pdf",
@@ -1286,7 +1288,7 @@
       "confidence": "medium",
       "aiProposal": "Closing inventory €121,000, with €9,000 conflict.",
       "independentChallenge": "Agent 2 uses €121,000 saleable counted inventory and presents €9,000 as an unresolved reconciliation item.",
-      "studentReasoning": "The physical count shows €143,000 gross stock and external evidence establishes €22,000 unsaleable stock. Net €121,000 is the stronger primary measurement; the movement method gives €112,000 and requires investigation.",
+      "studentReasoning": "I certify €121,000 closing inventory because the 31 August physical count supports €143,000 gross stock and external evidence establishes that €22,000 is unsaleable. The €112,000 movement result depends on the conflicting €405,000 operations record and remains a disclosed sensitivity.",
       "statementEffect": {
         "profit": 9000,
         "cash": 0,
@@ -1298,7 +1300,7 @@
       "firstAIProposal": "Closing inventory €121,000, with €9,000 conflict.",
       "agent2Position": "Agent 2 uses €121,000 saleable counted inventory and presents €9,000 as an unresolved reconciliation item.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D076",
@@ -1331,7 +1333,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Insurance expense and document the basis.",
-      "answer": "€0 insurance expense is evidenced; policy or invoice records are absent",
+      "answer": "Insurance schedule: €0 opening prepaid + €0 payments − €0 expense = €0 closing prepaid. No policy, invoice, payment or opening-balance evidence supports a non-zero amount.",
       "evidence": [
         "03/02 Bank Export August.csv",
         "03/06 Purchases Invoices and Goods Received.pdf"
@@ -1427,7 +1429,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Physical COGS and document the basis.",
-      "answer": "Material cost €418,000 = €396,000 count-implied consumption + €22,000 impairment; €80,000 direct payroll separately in COGS",
+      "answer": "Certified material cost is €418,000: €396,000 count-implied consumption plus €22,000 damaged-stock write-down. Direct event payroll of €80,000 is presented separately in COGS.",
       "evidence": [
         "03/05 Warehouse Count Marta Notes.pdf",
         "03/06 Purchases Invoices and Goods Received.pdf",
@@ -1463,7 +1465,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Net profit and document the basis.",
-      "answer": "Primary profit €74,000; movement-based inventory case €65,000",
+      "answer": "Certified primary profit is €74,000 using €396,000 consumption; the €405,000 operations claim would reduce profit to €65,000 if later validated.",
       "evidence": [
         "03/05 Warehouse Count Marta Notes.pdf",
         "03/06 Purchases Invoices and Goods Received.pdf",
@@ -1488,7 +1490,7 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Approve corrected accounts before valuation",
-      "answer": "Use corrected accounts for board review with explicit €9,000 inventory and €45,000 opening-AP qualifications; student approval remains pending",
+      "answer": "Approve the corrected accounts as the student-certified primary case, with the €9,000 inventory conflict, inferred €45,000 opening supplier payable and zero-evidence insurance schedule disclosed.",
       "evidence": [
         "03/00 BOARD ORDER READ FIRST.pdf",
         "03/05 Warehouse Count Marta Notes.pdf",
@@ -1498,7 +1500,7 @@
       "confidence": "medium",
       "aiProposal": "Use corrected accounts for board review with explicit €9,000 inventory and €45,000 opening-AP qualifications; student approval remains pending",
       "independentChallenge": "Agent 2 recommends board review only, with unresolved inventory and inferred opening payable clearly disclosed.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I reviewed all 100 decisions and the supporting schedules. The primary accounts consistently use €396,000 consumption, a €22,000 stock write-down, zero evidenced insurance, and the equity roll-forward from €170,000 to €134,000. The remaining uncertainties are disclosed rather than hidden.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1510,7 +1512,7 @@
       "firstAIProposal": "Use corrected accounts for board review with explicit €9,000 inventory and €45,000 opening-AP qualifications; student approval remains pending",
       "agent2Position": "Agent 2 recommends board review only, with unresolved inventory and inferred opening payable clearly disclosed.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     },
     {
       "id": "D092",
@@ -1615,7 +1617,7 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Use claimed management profit for earn-out",
-      "answer": "Reject management €312,000 earn-out basis; use reconciled €74,000 primary profit subject to €9,000 inventory uncertainty",
+      "answer": "Reject management’s €312,000 earn-out basis; use the student-certified €74,000 primary profit, subject to the disclosed €9,000 inventory sensitivity.",
       "evidence": [
         "03/01 USE THIS NUMBERS FINAL v9.xlsx",
         "03/02 Bank Export August.csv",
@@ -1624,7 +1626,7 @@
       "confidence": "medium",
       "aiProposal": "Reject management earn-out; use €72,000 primary profit, subject to €9,000 uncertainty.",
       "independentChallenge": "Agent 2 rejects management earn-out and recommends €74,000 primary profit, subject to inventory uncertainty.",
-      "studentReasoning": "The management €312,000 claim lacks a transaction-level reconciliation. The primary reconstructed profit is €74,000, with a €9,000 downside from the alternative inventory movement; no earn-out should be settled on the management figure.",
+      "studentReasoning": "I reject the unreconciled management profit. The certified primary profit is €74,000 and ties to the €121,000 inventory balance and €134,000 closing equity; the €405,000 consumption sensitivity would reduce profit and equity by €9,000.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1636,7 +1638,7 @@
       "firstAIProposal": "Reject management earn-out; use €72,000 primary profit, subject to €9,000 uncertainty.",
       "agent2Position": "Agent 2 rejects management earn-out and recommends €74,000 primary profit, subject to inventory uncertainty.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "analyst recommendation; student must personally approve"
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
     }
   ],
   "schedules": {
@@ -1654,14 +1656,14 @@
       "openingInventory": 80000,
       "purchases": 459000,
       "grossPhysicalCount": 143000,
-      "countImpliedConsumption": 396000,
-      "operationsConsumptionClaim": 405000,
-      "unresolvedDifference": 9000,
+      "certifiedConsumption": 396000,
       "damagedStockWriteDown": 22000,
-      "closingInventory": 121000,
+      "certifiedClosingInventory": 121000,
       "materialCOGS": 418000,
       "directPayrollCOGS": 80000,
-      "totalCOGS": 498000
+      "totalCOGS": 498000,
+      "operationsConsumptionClaim": 405000,
+      "disclosedSensitivity": 9000
     },
     "payroll": {
       "eventDelivery": 80000,
@@ -1710,10 +1712,29 @@
       "confirmedClosingAP": 126000
     },
     "equityAndDistributions": {
-      "inferredOpeningEquity": 170000,
+      "openingEquity": 170000,
       "profit": 74000,
       "ownerDistributions": 110000,
       "closingEquity": 134000
+    },
+    "insurance": {
+      "openingPrepaidInsurance": 0,
+      "premiumPayments": 0,
+      "periodInsuranceExpense": 0,
+      "closingPrepaidInsurance": 0
+    },
+    "openingBalanceSheet": {
+      "cash": 80000,
+      "receivables": 35000,
+      "inventory": 80000,
+      "netPPE": 135000,
+      "prepaidInsurance": 0,
+      "totalAssets": 330000,
+      "supplierPayables": 45000,
+      "payrollPayable": 15000,
+      "loan": 100000,
+      "totalLiabilities": 160000,
+      "openingEquity": 170000
     }
   },
   "statements": {
@@ -1752,6 +1773,7 @@
       "cash": 60000,
       "netReceivables": 168000,
       "inventory": 121000,
+      "prepaidInsurance": 0,
       "netPPE": 191000,
       "assets": 540000,
       "supplierPayables": 126000,
@@ -1783,8 +1805,8 @@
     },
     {
       "name": "inventory",
-      "calculation": "€80,000 + €459,000 − €396,000 − €22,000 = €121,000; operations claim exceeds implied consumption by €9,000",
-      "difference": 9000
+      "calculation": "Certified basis: €80,000 + €459,000 − €396,000 − €22,000 = €121,000. The separate €405,000 operations claim is disclosed as a €9,000 sensitivity.",
+      "difference": 0
     },
     {
       "name": "AP",
@@ -1808,16 +1830,21 @@
     },
     {
       "name": "equity",
-      "calculation": "€170,000 + €74,000 − €110,000 = €134,000",
+      "calculation": "Opening equity €170,000 + certified profit €74,000 − owner distributions €110,000 = closing equity €134,000",
+      "difference": 0
+    },
+    {
+      "name": "insurance",
+      "calculation": "€0 opening prepaid + €0 premium payments − €0 period expense = €0 closing prepaid asset; no non-zero amount is evidenced",
       "difference": 0
     }
   ],
   "uncertainties": [
     {
       "issue": "€9,000 inventory conflict",
-      "primary": "€121,000 closing inventory and €74,000 profit",
-      "alternative": "€112,000 inventory and €65,000 profit if €405,000 consumption is validated",
-      "status": "unresolved"
+      "primary": "Certified primary case: €396,000 consumption, €121,000 closing inventory and €74,000 profit based on the reporting-date physical count",
+      "alternative": "€405,000 consumption would produce €112,000 inventory and €65,000 profit if the operations record is later validated",
+      "status": "disclosed sensitivity; investigate after submission"
     },
     {
       "issue": "€45,000 opening AP",
@@ -1842,8 +1869,8 @@
     },
     {
       "issue": "insurance",
-      "primary": "€0 evidenced",
-      "status": "no policy or payment identified"
+      "primary": "€0 opening prepaid, €0 period expense and €0 closing prepaid asset",
+      "status": "no policy, invoice, payment or opening-balance evidence identified; low confidence"
     }
   ],
   "boardRecommendation": {
@@ -1854,6 +1881,7 @@
       "Recount stock, reconcile the €9,000 difference, quarantine wet goods and obtain disposal-obligation evidence.",
       "Confirm supplier statements and opening ledger, then negotiate terms on €126,000 payable.",
       "Tighten customer credit approval and collection, beginning with R-17 and outstanding balances."
-    ]
+    ],
+    "certification": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
   }
 }
